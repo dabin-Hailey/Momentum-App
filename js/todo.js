@@ -22,7 +22,7 @@ function saveTodos() {
 function deleteTodo(e) {
   const li = e.target.parentElement;
   li.remove();
-  const todos = todos.filter((item) => parseInt(li.id) !== item.id);
+  todos = todos.filter((item) => parseInt(li.id) !== item.id);
   saveTodos();
 }
 

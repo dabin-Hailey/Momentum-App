@@ -89,19 +89,22 @@ input {
 
 #todo-list {
   margin: 0 auto;
-  padding: 20px;
   width: 350px;
 
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+#todo-list + .hidden {
+  display: none;
+}
+
 #todo-list li {
   list-style-type: none;
-  margin-bottom: 10px;
+  padding: 20px 20px 0;
 
   &:last-child {
-    margin-bottom: 0;
+    padding-bottom: 20px;
   }
 }
 
