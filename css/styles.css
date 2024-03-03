@@ -95,10 +95,6 @@ input {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-#todo-list + .hidden {
-  display: none;
-}
-
 #todo-list li {
   list-style-type: none;
   padding: 20px 20px 0;
